@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.boot.build.artifacts.ArtifactReleaseTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-01-25T03:28:29" hostname="fv-az1912-54" time="0.059">
+  <properties/>
+  <testcase name="whenProjectVersionIsSnapshotThenTypeIsSnapshot()" classname="org.springframework.boot.build.artifacts.ArtifactReleaseTests" time="0.007"/>
+  <testcase name="whenProjectVersionIsMilestoneThenRepositoryIsArtifactoryMilestone()" classname="org.springframework.boot.build.artifacts.ArtifactReleaseTests" time="0.008"/>
+  <testcase name="whenProjectVersionIsSnapshotThenRepositoryIsArtifactorySnapshot()" classname="org.springframework.boot.build.artifacts.ArtifactReleaseTests" time="0.006"/>
+  <testcase name="whenProjectVersionIsReleaseCandidateThenTypeIsMilestone()" classname="org.springframework.boot.build.artifacts.ArtifactReleaseTests" time="0.006"/>
+  <testcase name="whenProjectVersionIsMilestoneThenTypeIsMilestone()" classname="org.springframework.boot.build.artifacts.ArtifactReleaseTests" time="0.006"/>
+  <testcase name="whenProjectVersionIsReleaseThenTypeIsRelease()" classname="org.springframework.boot.build.artifacts.ArtifactReleaseTests" time="0.009"/>
+  <testcase name="whenProjectVersionIsReleaseThenRepositoryIsMavenCentral()" classname="org.springframework.boot.build.artifacts.ArtifactReleaseTests" time="0.008"/>
+  <testcase name="whenProjectVersionIsReleaseCandidateThenRepositoryIsArtifactoryMilestone()" classname="org.springframework.boot.build.artifacts.ArtifactReleaseTests" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

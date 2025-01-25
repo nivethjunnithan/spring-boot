@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.boot.build.architecture.ArchitectureCheckTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2025-01-25T03:28:28" hostname="fv-az1912-54" time="0.297">
+  <properties/>
+  <testcase name="whenClassCallsObjectsRequireNonNullWithMessageTaskFailsAndWritesReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.041"/>
+  <testcase name="whenBeanFactoryPostProcessorBeanMethodIsStaticAndHasParametersTaskFailsAndWritesAReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.017"/>
+  <testcase name="whenClassCallsStringToUpperCaseWithoutLocaleFailsAndWritesReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.015"/>
+  <testcase name="whenClassCallsObjectsRequireNonNullWithSupplierTaskFailsAndWritesReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.016"/>
+  <testcase name="whenClassLoadsResourceUsingResourceUtilsTaskFailsAndWritesReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.014"/>
+  <testcase name="whenBeanPostProcessorBeanMethodIsStaticAndHasNoParametersTaskSucceedsAndWritesAnEmptyReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.014"/>
+  <testcase name="whenBeanFactoryPostProcessorBeanMethodIsStaticAndHasNoParametersTaskSucceedsAndWritesAnEmptyReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.013"/>
+  <testcase name="whenBeanPostProcessorBeanMethodIsStaticAndHasSafeParametersTaskSucceedsAndWritesAnEmptyReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.015"/>
+  <testcase name="whenPackagesAreNotTangledTaskSucceedsAndWritesAnEmptyReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.012"/>
+  <testcase name="whenBeanFactoryPostProcessorBeanMethodIsNotStaticTaskFailsAndWritesAReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.011"/>
+  <testcase name="whenClassCallsStringToUpperCaseWithLocaleShouldNotFail()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.011"/>
+  <testcase name="whenClassCallsStringToLowerCaseWithoutLocaleFailsAndWritesReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.014"/>
+  <testcase name="whenClassDoesNotCallObjectsRequireNonNullTaskSucceedsAndWritesAnEmptyReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.013"/>
+  <testcase name="whenBeanPostProcessorBeanMethodIsNotStaticTaskFailsAndWritesAReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.026"/>
+  <testcase name="whenPackagesAreTangledTaskFailsAndWritesAReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.012"/>
+  <testcase name="whenClassCallsStringToLowerCaseWithLocaleShouldNotFail()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.013"/>
+  <testcase name="whenClassUsesResourceUtilsWithoutLoadingResourcesTaskSucceedsAndWritesAnEmptyReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.014"/>
+  <testcase name="whenBeanPostProcessorBeanMethodIsStaticAndHasUnsafeParametersTaskFailsAndWritesAReport()" classname="org.springframework.boot.build.architecture.ArchitectureCheckTests" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

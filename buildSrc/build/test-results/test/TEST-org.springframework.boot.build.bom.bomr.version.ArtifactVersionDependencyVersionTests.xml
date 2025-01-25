@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2025-01-25T03:28:48" hostname="fv-az1912-54" time="0.028">
+  <properties/>
+  <testcase name="parseWhenVersionIsNotAMavenVersionShouldReturnNull()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="isSameMajorWhenSameMajorAndMinorShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="isSnapshotForWhenBuildSnapshotForDifferentReleaseShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="isSnapshotForWhenBuildSnapshotForMilestoneShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="isSameMajorWhenSameMajorShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="isSnapshotForWhenSnapshotForReleaseCandidateShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="isSnapshotForWhenSnapshotForMilestoneShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="isSameMinorWhenDifferentMinorShouldReturnFalse()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="parseWhenVersionIsAMavenVersionShouldReturnAVersion()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="isSnapshotForWhenNotSnapshotShouldReturnFalse()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="isSnapshotForWhenBuildSnapshotForDifferentReleaseCandidateShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="isSnapshotForWhenBuildSnapshotForReleaseShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.002"/>
+  <testcase name="isSnapshotForWhenSnapshotForDifferentMilestoneShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.0"/>
+  <testcase name="isSameMinorWhenSameMinorShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.0"/>
+  <testcase name="isSnapshotForWhenSnapshotForDifferentReleaseCandidateShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.002"/>
+  <testcase name="isSameMajorWhenDifferentMajorShouldReturnFalse()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="isSnapshotForWhenSnapshotForReleaseShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.0"/>
+  <testcase name="isSnapshotForWhenBuildSnapshotForReleaseCandidateShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="isSnapshotForWhenSnapshotForDifferentReleaseShouldReturnFalse()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="isSnapshotForWhenBuildSnapshotForDifferentMilestoneShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ArtifactVersionDependencyVersionTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.boot.build.bom.BomPluginIntegrationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-01-25T03:28:29" hostname="fv-az1912-54" time="17.332">
+  <properties/>
+  <testcase name="libraryNamedSpringBootHasNoVersionProperty()" classname="org.springframework.boot.build.bom.BomPluginIntegrationTests" time="14.89"/>
+  <testcase name="libraryPluginsAreIncludedInPluginManagementOfGeneratedPom()" classname="org.springframework.boot.build.bom.BomPluginIntegrationTests" time="1.047"/>
+  <testcase name="moduleClassifiersAreIncludedInDependencyManagementOfGeneratedPom()" classname="org.springframework.boot.build.bom.BomPluginIntegrationTests" time="0.283"/>
+  <testcase name="libraryModulesAreIncludedInDependencyManagementOfGeneratedPom()" classname="org.springframework.boot.build.bom.BomPluginIntegrationTests" time="0.305"/>
+  <testcase name="moduleExclusionsAreIncludedInDependencyManagementOfGeneratedPom()" classname="org.springframework.boot.build.bom.BomPluginIntegrationTests" time="0.418"/>
+  <testcase name="moduleTypesAreIncludedInDependencyManagementOfGeneratedPom()" classname="org.springframework.boot.build.bom.BomPluginIntegrationTests" time="0.208"/>
+  <testcase name="libraryImportsAreIncludedInDependencyManagementOfGeneratedPom()" classname="org.springframework.boot.build.bom.BomPluginIntegrationTests" time="0.178"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

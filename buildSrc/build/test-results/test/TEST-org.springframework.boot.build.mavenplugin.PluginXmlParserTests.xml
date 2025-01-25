@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.boot.build.mavenplugin.PluginXmlParserTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-01-25T03:28:50" hostname="fv-az1912-54" time="0.448">
+  <properties/>
+  <testcase name="parseNonExistingFileThrowException()" classname="org.springframework.boot.build.mavenplugin.PluginXmlParserTests" time="0.005"/>
+  <testcase name="parseExistingDescriptorReturnPluginDescriptor()" classname="org.springframework.boot.build.mavenplugin.PluginXmlParserTests" time="0.443"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

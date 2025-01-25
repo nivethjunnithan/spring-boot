@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.12.4">
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/optional/OptionalDependenciesPluginIntegrationTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/assertj/NodeAssert.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/groovyscripts/SpringRepositoriesExtensionTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/InteractiveUpgradeResolverTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/ReleaseScheduleTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/UpgradeApplicatorTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/DependencyVersionUpgradeTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/MultipleComponentsDependencyVersionTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/CalendarVersionDependencyVersionTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/ReleaseTrainDependencyVersionTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/ArtifactVersionDependencyVersionTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/version/DependencyVersionTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/bom/bomr/UpgradeTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/bom/BomPluginIntegrationTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/bom/LibraryTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/antora/GenerateAntoraPlaybookTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/antora/AntoraAsciidocAttributesTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/ConventionsPluginTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/testing/TestFailuresPluginIntegrationTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/artifacts/ArtifactReleaseTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/mavenplugin/PluginXmlParserTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/context/properties/SingleRowTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/context/properties/TableTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/context/properties/ConfigurationPropertiesTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/context/properties/CompoundRowTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/untangled/UntangledOne.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/untangled/sub/UntangledTwo.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/ArchitectureCheckTests.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/bfpp/nonstatic/NonStaticBeanFactoryPostProcessorConfiguration.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/bfpp/parameters/ParametersBeanFactoryPostProcessorConfiguration.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/bfpp/noparameters/NoParametersBeanFactoryPostProcessorConfiguration.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/objects/requireNonNullWithSupplier/RequireNonNullWithSupplier.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/objects/noRequireNonNull/NoRequireNonNull.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/objects/requireNonNullWithString/RequireNonNullWithString.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/bpp/nonstatic/NonStaticBeanPostProcessorConfiguration.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/bpp/unsafeparameters/UnsafeParametersBeanPostProcessorConfiguration.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/bpp/noparameters/NoParametersBeanPostProcessorConfiguration.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/bpp/safeparameters/SafeParametersBeanPostProcessorConfiguration.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/tangled/TangledOne.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/tangled/sub/TangledTwo.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/resources/loads/ResourceUtilsResourceLoader.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/resources/noloads/ResourceUtilsWithoutLoading.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/string/toUpperCaseWithLocale/ToUpperCaseWithLocale.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/string/toUpperCase/ToUpperCase.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/string/toLowerCase/ToLowerCase.java">
+</file>
+<file name="/home/runner/work/spring-boot/spring-boot/buildSrc/src/test/java/org/springframework/boot/build/architecture/string/toLowerCaseWithLocale/ToLowerCaseWithLocale.java">
+</file>
+</checkstyle>

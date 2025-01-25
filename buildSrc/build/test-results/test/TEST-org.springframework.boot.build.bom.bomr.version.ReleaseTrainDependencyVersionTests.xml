@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2025-01-25T03:28:48" hostname="fv-az1912-54" time="0.012">
+  <properties/>
+  <testcase name="isSameMinorWhenReleaseTrainIsDifferentShouldReturnFalse()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.0"/>
+  <testcase name="releaseTrainVersionIsNotSameMinorAsCalendarVersion()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.0"/>
+  <testcase name="isSnapshotForWhenSnapshotForServiceReleaseShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.001"/>
+  <testcase name="parsingOfAReleaseTrainVersionReturnsVersion()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.001"/>
+  <testcase name="isSameMajorWhenReleaseTrainIsDifferentShouldReturnFalse()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.0"/>
+  <testcase name="releaseTrainVersionIsNotSameMajorAsCalendarTrainVersion()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.001"/>
+  <testcase name="isSnapshotForWhenSnapshotForReleaseCandidateShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.0"/>
+  <testcase name="isSnapshotForWhenSnapshotForMilestoneShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.0"/>
+  <testcase name="isSnapshotForWhenNotSnapshotShouldReturnFalse()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.001"/>
+  <testcase name="isSnapshotForWhenSnapshotForDifferentMilestoneShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.0"/>
+  <testcase name="isSnapshotForWhenSnapshotForDifferentReleaseCandidateShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.001"/>
+  <testcase name="isSameMinorWhenReleaseTrainIsTheSameShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.0"/>
+  <testcase name="isSnapshotForWhenSnapshotForReleaseShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.001"/>
+  <testcase name="isSnapshotForWhenSnapshotForDifferentReleaseShouldReturnFalse()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.0"/>
+  <testcase name="isSameMajorWhenReleaseTrainIsTheSameShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.001"/>
+  <testcase name="parsingOfANonReleaseTrainVersionReturnsNull()" classname="org.springframework.boot.build.bom.bomr.version.ReleaseTrainDependencyVersionTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

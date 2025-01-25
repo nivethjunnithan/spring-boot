@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - DependencyVersionUpgradeTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>DependencyVersionUpgradeTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.boot.build.bom.bomr.version.html">org.springframework.boot.build.bom.bomr.version</a> &gt; DependencyVersionUpgradeTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">63</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.045s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">[1] 1.2.3, 1.2.4</td>
+<td class="success">isUpgradeWhenLaterPatchReleaseShouldReturnTrue(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.RELEASE, 1.2.4.RELEASE</td>
+<td class="success">isUpgradeWhenLaterPatchReleaseShouldReturnTrue(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Kay-RELEASE, Kay-SR1</td>
+<td class="success">isUpgradeWhenLaterPatchReleaseShouldReturnTrue(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 2023.0.0, 2023.0.1</td>
+<td class="success">isUpgradeWhenLaterPatchReleaseShouldReturnTrue(DependencyVersion, DependencyVersion)[4]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3-M1, 1.2.3-SNAPSHOT</td>
+<td class="success">isUpgradeWhenMilestoneToSnapshotAndMovingToSnapshotsShouldReturnTrue(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.M1, 1.2.3.BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenMilestoneToSnapshotAndMovingToSnapshotsShouldReturnTrue(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Kay-M1, Kay-BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenMilestoneToSnapshotAndMovingToSnapshotsShouldReturnTrue(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 2023.0.0-M1, 2023.0.0-SNAPSHOT</td>
+<td class="success">isUpgradeWhenMilestoneToSnapshotAndMovingToSnapshotsShouldReturnTrue(DependencyVersion, DependencyVersion)[4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3-M1, 1.2.3-SNAPSHOT</td>
+<td class="success">isUpgradeWhenMilestoneToSnapshotShouldReturnFalse(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.M1, 1.2.3.BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenMilestoneToSnapshotShouldReturnFalse(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Kay-M1, Kay-BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenMilestoneToSnapshotShouldReturnFalse(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 2023.0.0-M1, 2023.0.0-SNAPSHOT</td>
+<td class="success">isUpgradeWhenMilestoneToSnapshotShouldReturnFalse(DependencyVersion, DependencyVersion)[4]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3-RC1, 1.2.3-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseCandidateToSnapshotAndMovingToSnapshotsShouldReturnTrue(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.RC1, 1.2.3.BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseCandidateToSnapshotAndMovingToSnapshotsShouldReturnTrue(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Kay-RC1, Kay-BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseCandidateToSnapshotAndMovingToSnapshotsShouldReturnTrue(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 2023.0.0-RC1, 2023.0.0-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseCandidateToSnapshotAndMovingToSnapshotsShouldReturnTrue(DependencyVersion, DependencyVersion)[4]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3-RC1, 1.2.3-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseCandidateToSnapshotShouldReturnFalse(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.RC1, 1.2.3.BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseCandidateToSnapshotShouldReturnFalse(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Kay-RC1, Kay-BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseCandidateToSnapshotShouldReturnFalse(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 2023.0.0-RC1, 2023.0.0-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseCandidateToSnapshotShouldReturnFalse(DependencyVersion, DependencyVersion)[4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3, 1.2.3-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseToSnapshotAndMovingToSnapshotsShouldReturnFalse(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.RELEASE, 1.2.3.BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseToSnapshotAndMovingToSnapshotsShouldReturnFalse(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] 2023.0.0, 2023.0.0-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseToSnapshotAndMovingToSnapshotsShouldReturnFalse(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3, 1.2.3-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseToSnapshotShouldReturnFalse(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.RELEASE, 1.2.3.BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseToSnapshotShouldReturnFalse(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Kay-RELEASE, Kay-BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseToSnapshotShouldReturnFalse(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 2023.0.0, 2023.0.0-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseToSnapshotShouldReturnFalse(DependencyVersion, DependencyVersion)[4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] Kay-RELEASE, Kay-BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenReleaseTrainToSnapshotAndMovingToSnapshotsShouldReturnTrue(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3-SNAPSHOT, 1.2.3-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSameSnapshotVersionAndMovingToSnapshotsShouldReturnFalse(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.BUILD-SNAPSHOT, 1.2.3.BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSameSnapshotVersionAndMovingToSnapshotsShouldReturnFalse(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Kay-BUILD-SNAPSHOT, Kay-BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSameSnapshotVersionAndMovingToSnapshotsShouldReturnFalse(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 2023.0.0-SNAPSHOT, 2023.0.0-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSameSnapshotVersionAndMovingToSnapshotsShouldReturnFalse(DependencyVersion, DependencyVersion)[4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3-SNAPSHOT, 1.2.3-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSameSnapshotVersionShouldReturnFalse(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.BUILD-SNAPSHOT, 1.2.3.BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSameSnapshotVersionShouldReturnFalse(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Kay-BUILD-SNAPSHOT, Kay-BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSameSnapshotVersionShouldReturnFalse(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 2023.0.0-SNAPSHOT, 2023.0.0-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSameSnapshotVersionShouldReturnFalse(DependencyVersion, DependencyVersion)[4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3, 1.2.3</td>
+<td class="success">isUpgradeWhenSameVersionShouldReturnFalse(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.RELEASE, 1.2.3.RELEASE</td>
+<td class="success">isUpgradeWhenSameVersionShouldReturnFalse(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Kay-RELEASE, Kay-RELEASE</td>
+<td class="success">isUpgradeWhenSameVersionShouldReturnFalse(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 2023.0.0, 2023.0.0</td>
+<td class="success">isUpgradeWhenSameVersionShouldReturnFalse(DependencyVersion, DependencyVersion)[4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3, 1.2.4-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSnapshotOfLaterPatchReleaseAndMovingToSnapshotsShouldReturnTrue(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.RELEASE, 1.2.4.BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSnapshotOfLaterPatchReleaseAndMovingToSnapshotsShouldReturnTrue(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Kay-RELEASE, Kay-BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSnapshotOfLaterPatchReleaseAndMovingToSnapshotsShouldReturnTrue(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 2023.0.0, 2023.0.1-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSnapshotOfLaterPatchReleaseAndMovingToSnapshotsShouldReturnTrue(DependencyVersion, DependencyVersion)[4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3, 1.2.4-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSnapshotOfLaterPatchReleaseShouldReturnTrue(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.RELEASE, 1.2.4.BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSnapshotOfLaterPatchReleaseShouldReturnTrue(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] 2023.0.0, 2023.0.1-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSnapshotOfLaterPatchReleaseShouldReturnTrue(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3, 1.2.3-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSnapshotOfSameVersionShouldReturnFalse(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.RELEASE, 1.2.3.BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSnapshotOfSameVersionShouldReturnFalse(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Kay-RELEASE, Kay-BUILD-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSnapshotOfSameVersionShouldReturnFalse(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 2023.0.0, 2023.0.0-SNAPSHOT</td>
+<td class="success">isUpgradeWhenSnapshotOfSameVersionShouldReturnFalse(DependencyVersion, DependencyVersion)[4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3-SNAPSHOT, 1.2.3-M2</td>
+<td class="success">isUpgradeWhenSnapshotToMilestoneShouldReturnTrue(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.BUILD-SNAPSHOT, 1.2.3.M2</td>
+<td class="success">isUpgradeWhenSnapshotToMilestoneShouldReturnTrue(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Kay-BUILD-SNAPSHOT, Kay-M2</td>
+<td class="success">isUpgradeWhenSnapshotToMilestoneShouldReturnTrue(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 2023.0.0-SNAPSHOT, 2023.0.0-M2</td>
+<td class="success">isUpgradeWhenSnapshotToMilestoneShouldReturnTrue(DependencyVersion, DependencyVersion)[4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3-SNAPSHOT, 1.2.3-RC1</td>
+<td class="success">isUpgradeWhenSnapshotToReleaseCandidateShouldReturnTrue(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.BUILD-SNAPSHOT, 1.2.3.RC1</td>
+<td class="success">isUpgradeWhenSnapshotToReleaseCandidateShouldReturnTrue(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Kay-BUILD-SNAPSHOT, Kay-RC1</td>
+<td class="success">isUpgradeWhenSnapshotToReleaseCandidateShouldReturnTrue(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 2023.0.0-SNAPSHOT, 2023.0.0-RC1</td>
+<td class="success">isUpgradeWhenSnapshotToReleaseCandidateShouldReturnTrue(DependencyVersion, DependencyVersion)[4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 1.2.3-SNAPSHOT, 1.2.3</td>
+<td class="success">isUpgradeWhenSnapshotToReleaseShouldReturnTrue(DependencyVersion, DependencyVersion)[1]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 1.2.3.BUILD-SNAPSHOT, 1.2.3.RELEASE</td>
+<td class="success">isUpgradeWhenSnapshotToReleaseShouldReturnTrue(DependencyVersion, DependencyVersion)[2]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Kay-BUILD-SNAPSHOT, Kay-RELEASE</td>
+<td class="success">isUpgradeWhenSnapshotToReleaseShouldReturnTrue(DependencyVersion, DependencyVersion)[3]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 2023.0.0-SNAPSHOT, 2023.0.0</td>
+<td class="success">isUpgradeWhenSnapshotToReleaseShouldReturnTrue(DependencyVersion, DependencyVersion)[4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.12</a> at Jan 25, 2025, 3:29:10 AM</p>
+</div>
+</div>
+</body>
+</html>

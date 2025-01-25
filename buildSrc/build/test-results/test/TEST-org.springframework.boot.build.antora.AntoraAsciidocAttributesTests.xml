@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2025-01-25T03:28:27" hostname="fv-az1912-54" time="0.097">
+  <properties/>
+  <testcase name="versionReferenceFromLibrary()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.034"/>
+  <testcase name="githubRefWhenReleasedVersionIsTag()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.003"/>
+  <testcase name="urlArtifactRepositoryWhenRelease()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.002"/>
+  <testcase name="linksFromProperties()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.004"/>
+  <testcase name="githubRefWhenLatestSnapshotVersionIsMainBranch()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.002"/>
+  <testcase name="artifactReleaseTypeWhenCommercialMilestone()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.004"/>
+  <testcase name="versionNativeBuildTools()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.003"/>
+  <testcase name="versionReferenceFromSpringDataDependencySnapshotVersion()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.006"/>
+  <testcase name="urlArtifactRepositoryWhenSnapshot()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.001"/>
+  <testcase name="githubRefWhenOlderSnapshotVersionIsBranch()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.002"/>
+  <testcase name="urlLinksFromLibrary()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.006"/>
+  <testcase name="githubRefWhenOlderSnapshotHotFixVersionIsBranch()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.001"/>
+  <testcase name="versionReferenceFromSpringDataDependencyReleaseVersion()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.003"/>
+  <testcase name="artifactReleaseTypeWhenOpenSourceMilestone()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.002"/>
+  <testcase name="buildTypeWhenOpenSource()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.001"/>
+  <testcase name="artifactReleaseTypeWhenCommercialRelease()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.002"/>
+  <testcase name="buildTypeWhenCommercial()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.001"/>
+  <testcase name="artifactReleaseTypeWhenOpenSourceSnapshot()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.002"/>
+  <testcase name="artifactReleaseTypeWhenOpenSourceRelease()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.003"/>
+  <testcase name="urlArtifactRepositoryWhenMilestone()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.001"/>
+  <testcase name="artifactReleaseTypeWhenCommercialSnapshot()" classname="org.springframework.boot.build.antora.AntoraAsciidocAttributesTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

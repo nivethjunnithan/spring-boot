@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.boot.build.ConventionsPluginTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-01-25T03:27:54" hostname="fv-az1912-54" time="33.169">
+  <properties/>
+  <testcase name="testRetryIsConfiguredWithZeroRetriesLocally()" classname="org.springframework.boot.build.ConventionsPluginTests" time="30.191"/>
+  <testcase name="testRetryIsConfiguredWithThreeRetriesOnCI()" classname="org.springframework.boot.build.ConventionsPluginTests" time="0.687"/>
+  <testcase name="javadocJarIsBuilt()" classname="org.springframework.boot.build.ConventionsPluginTests" time="0.986"/>
+  <testcase name="jarIncludesLegalFiles()" classname="org.springframework.boot.build.ConventionsPluginTests" time="0.678"/>
+  <testcase name="sourceJarIsBuilt()" classname="org.springframework.boot.build.ConventionsPluginTests" time="0.622"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

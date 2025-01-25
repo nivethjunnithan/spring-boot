@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.boot.build.bom.bomr.version.CalendarVersionDependencyVersionTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-01-25T03:28:48" hostname="fv-az1912-54" time="0.014">
+  <properties/>
+  <testcase name="isSameMajorWhenSameMajorAndMinorShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.CalendarVersionDependencyVersionTests" time="0.0"/>
+  <testcase name="isSameMajorWhenSameMajorShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.CalendarVersionDependencyVersionTests" time="0.0"/>
+  <testcase name="calendarVersionIsNotSameMajorAsReleaseTrainVersion()" classname="org.springframework.boot.build.bom.bomr.version.CalendarVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="calendarVersionIsNotSameMinorAsReleaseTrainVersion()" classname="org.springframework.boot.build.bom.bomr.version.CalendarVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="parseWhenVersionIsACalendarVersionShouldReturnAVersion()" classname="org.springframework.boot.build.bom.bomr.version.CalendarVersionDependencyVersionTests" time="0.0"/>
+  <testcase name="isSameMinorWhenDifferentMinorShouldReturnFalse()" classname="org.springframework.boot.build.bom.bomr.version.CalendarVersionDependencyVersionTests" time="0.001"/>
+  <testcase name="isSameMinorWhenSameMinorShouldReturnTrue()" classname="org.springframework.boot.build.bom.bomr.version.CalendarVersionDependencyVersionTests" time="0.0"/>
+  <testcase name="isSameMajorWhenDifferentMajorShouldReturnFalse()" classname="org.springframework.boot.build.bom.bomr.version.CalendarVersionDependencyVersionTests" time="0.0"/>
+  <testcase name="parseWhenVersionIsNotACalendarVersionShouldReturnNull()" classname="org.springframework.boot.build.bom.bomr.version.CalendarVersionDependencyVersionTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
